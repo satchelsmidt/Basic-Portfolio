@@ -1,5 +1,5 @@
-html, body{
-    height: 100%;
+html{
+    /* background-image: url("assets/images/beige-tiles.png"); */
 }
 
 body{
@@ -7,11 +7,7 @@ body{
     margin: 0 auto;
     padding: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: relative;
-    /* display: flex; */
-    /* flex: 1 0 auto; */
-    /* flex-direction: column; */
-    /* background-image: url("assets/images/beige-tiles.png"); */
+    color: #777777
 }
 
 .header{
@@ -20,7 +16,6 @@ body{
     margin-top: 50px;
     border-bottom: solid #cccccc;
     overflow: auto;
-    /* flex: 1 0 auto; */
 }
 
 #title{
@@ -57,18 +52,24 @@ a:visited {
     padding: 20px;
     border: 2px solid #dddddd;
     margin-top: 40px;
-
-    /* margin-bottom: 80px; */
-    /* flex: 1 0 auto; */
+    margin-bottom: 40px;
+    overflow: auto;
 }
 
 #about_header{
     padding-bottom: 25px;
-    border-bottom: solid #777777;
+    border-bottom: solid #cccccc;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+#main_photo{
+    float: left;
+}
+
+p{
+    width: auto;
+}
 
 .portfolio_body{
     clear: both;
@@ -76,12 +77,12 @@ a:visited {
     padding: 20px;
     border: 2px solid #dddddd;
     margin-top: 40px;
-    /* flex: 1 0 auto; */
+    margin-bottom: 40px;
 }
 
 #portfolio_header{
     padding-bottom: 25px;
-    border-bottom: solid #777777;
+    border-bottom: solid #cccccc;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
@@ -92,23 +93,35 @@ a:visited {
     padding: 20px;
     border: 2px solid #dddddd;
     margin-top: 40px;
-    /* flex: 1 0 auto; */
+    margin-bottom: 40px;
 }
 
 #contact_header{
     padding-bottom: 25px;
-    border-bottom: solid #777777;
+    border-bottom: solid #cccccc;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+
+.form{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px;
+    border: 0.5px solid lightgray;
+}
+
 
 footer{
     clear:both;
     background: #666666;
     color: #ffffff;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     text-align: center;
-    /* flex-shrink 0; */
-    position: absolute;
-    bottom: 0px;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+h4{
+    margin: 0px;
 }
