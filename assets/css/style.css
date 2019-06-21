@@ -12,6 +12,7 @@ body{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 100%;
     border-bottom: solid #cccccc;
+    /* float: left; */
     overflow: auto;
 }
 
@@ -46,6 +47,10 @@ a:link{
 a:visited {
     color: #777777;
     text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.5;
 }
 
 .body_content{
@@ -100,15 +105,48 @@ p{
     margin: 0 auto;
 }
 
-#pic1_div{
-    background-color:  #4aaaa5;
+ .pics{
+    overflow: auto;
+} 
+
+.pic_div{
     position: relative;
+    overflow: auto;
+    width: 33%;
+    float: left;
+    margin: 10px;
+}
+.pic_div img {
+    float: left;
+}
+.pic_text{
+    background-color:  #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
-#pic1_text{
-    background-color:  #4aaaa5;
-    position: absolute;
+.portfolio_links:link{
+    text-decoration: none;
+    color: #ffffff;
 }
+
+.portfolio_links:hover{
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.portfolio_links:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 .contact_body{
     clear: both;
@@ -138,6 +176,18 @@ p{
     border: 0.5px solid lightgray;
 }
 
+#submit_button{
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 5px 15px;
+    border: 0px;
+    color: #ffffff;
+}
+
+.message_box{
+    margin-bottom: 20px;
+}
+
 footer {
     clear:both;
     background: #666666;
@@ -152,6 +202,6 @@ footer {
     width: 100%;
  }
 
-h4{
+#footer_heading{
     margin: 0px;
 }
