@@ -59,7 +59,7 @@ a:visited {
     padding: 20px;
     border: 2px solid #dddddd;
     margin-top: 40px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     overflow: auto;
 }
 
@@ -72,6 +72,7 @@ a:visited {
 
 #main_photo{
     float: left;
+    padding-right: 20px;
 }
 
 p{
@@ -97,6 +98,16 @@ p{
 .portfolio_content{
     width: 960px;
     margin: 0 auto;
+}
+
+#pic1_div{
+    background-color:  #4aaaa5;
+    position: relative;
+}
+
+#pic1_text{
+    background-color:  #4aaaa5;
+    position: absolute;
 }
 
 .contact_body{
