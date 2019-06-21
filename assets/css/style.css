@@ -42,6 +42,7 @@ body{
 
 a:link{
     text-decoration: none;
+    color: #777777;
 }
 
 a:visited {
